@@ -1,0 +1,119 @@
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		splash_screen
+	 *	@date 		Sunday 28th of May 2023 03:40:42 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/splash_screen" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_splash_screen_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__splash_screen_ek2"
+					android:background="@drawable/_bg__splash_screen_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="800dp" />
+
+
+				<RelativeLayout android:id="@+id/mulai"
+					android:layout_marginTop="648dp"
+					android:layout_marginStart="63dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<Button
+						android:id="@+id/tombolmulai"
+						android:background="@drawable/tombolmulai_shape"
+						android:fontFamily="@font/krub_semibold"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="20sp"
+						android:textColor="@color/labelmulai_color"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="234dp"
+						android:layout_height="50dp"
+						android:text="Mulai"/>
+
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/__img_gambar1"
+					android:src="@drawable/__img_gambar1"
+					android:contentDescription="__img_gambar1"
+					 android:layout_marginStart="11dp"
+					android:layout_marginTop="234dp"
+					android:layout_width="337.28dp"
+					android:layout_height="250dp" />
+
+				<TextView android:id="@+id/selamat_datang_di_tulis"
+					android:fontFamily="@font/krub_semibold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="40sp"
+					android:textColor="@color/selamat_datang_di_tulis_color"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="68dp"
+					android:layout_width="327dp"
+					android:layout_height="142dp"
+					android:text="@string/selamat_datang_di_tulis_string"
+					 />
+
+				<TextView android:id="@+id/melakukan_tugas_harian_dengan_tulis"
+					android:fontFamily="@font/krub_semibold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="14sp"
+					android:textColor="@color/selamat_datang_di_tulis_color"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="536dp"
+					android:layout_width="307dp"
+					android:layout_height="40dp"
+					android:text="@string/melakukan_tugas_harian_dengan_tulis_string"
+					 />
+
+				<TextView android:id="@+id/ayo_kita_masuk_ke_catatan_harian_anda"
+					android:fontFamily="@font/poppins_regular"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="12sp"
+					android:textColor="@color/selamat_datang_di_tulis_color"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="556dp"
+					android:layout_width="306dp"
+					android:layout_height="38dp"
+					android:text="@string/ayo_kita_masuk_ke_catatan_harian_anda_string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

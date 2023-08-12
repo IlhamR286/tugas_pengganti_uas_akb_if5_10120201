@@ -1,0 +1,181 @@
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		profilmahasiswa
+	 *	@date 		Sunday 28th of May 2023 03:53:13 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/profilmahasiswa" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_profilmahasiswa_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__profilmahasiswa_ek2"
+					android:background="@drawable/_bg__profilmahasiswa_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="800dp" />
+
+				<ImageView android:id="@+id/fotodiri"
+					android:src="@drawable/fotodiri"
+					android:contentDescription="fotodiri"
+					 android:layout_marginStart="80dp"
+					android:layout_marginTop="133dp"
+					android:layout_width="200dp"
+					android:layout_height="200dp" />
+
+				<View   android:id="@+id/bgdatadiri"
+					android:background="@drawable/bgdatadiri_shape"
+					 android:layout_marginStart="43dp"
+					android:layout_marginTop="400dp"
+					android:layout_width="274dp"
+					android:layout_height="184dp" />
+
+				<TextView android:id="@+id/nim"
+					android:fontFamily="@font/inter_semibold"
+					android:textStyle="bold"
+					android:textSize="14sp"
+					android:textColor="@color/nim_color"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="420dp"
+					android:layout_width="257dp"
+					android:layout_height="44dp"
+					android:text="@string/nim_string"
+					 />
+
+				<TextView android:id="@+id/nama"
+					android:fontFamily="@font/inter_semibold"
+					android:textStyle="bold"
+					android:textSize="14sp"
+					android:textColor="@color/nim_color"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="454dp"
+					android:layout_width="257dp"
+					android:layout_height="44dp"
+					android:text="@string/nama_string"
+					 />
+
+				<TextView android:id="@+id/kelas"
+					android:fontFamily="@font/inter_semibold"
+					android:textStyle="bold"
+					android:textSize="14sp"
+					android:textColor="@color/nim_color"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="488dp"
+					android:layout_width="257dp"
+					android:layout_height="44dp"
+					android:text="@string/kelas_string"
+					 />
+
+				<TextView android:id="@+id/email"
+					android:fontFamily="@font/inter_semibold"
+					android:textStyle="bold"
+					android:textSize="14sp"
+					android:textColor="@color/nim_color"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="529dp"
+					android:layout_width="268dp"
+					android:layout_height="44dp"
+					android:text="@string/email_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/group_7"
+					android:layout_marginTop="739dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/barprofil"
+						android:background="@drawable/barprofil_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="360dp"
+						android:layout_height="61dp" />
+
+
+					<RelativeLayout android:id="@+id/iconlist_profil"
+						android:layout_marginTop="10dp"
+						android:layout_marginStart="156dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector"
+							android:src="@drawable/vector2"
+							android:contentDescription="vector"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="47.4dp"
+							android:layout_height="40dp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/iconprofil_profil"
+						android:layout_marginTop="10dp"
+						android:layout_marginStart="23dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector_ek1"
+							android:src="@drawable/vector1"
+							android:contentDescription="vector_ek1"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="40dp"
+							android:layout_height="40dp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/iconinformasi_profil"
+						android:layout_marginTop="10dp"
+						android:layout_marginStart="297dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector_ek2"
+							android:src="@drawable/vector3"
+							android:contentDescription="vector_ek2"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="40dp"
+							android:layout_height="40dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

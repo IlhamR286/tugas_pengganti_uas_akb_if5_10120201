@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		registrasi
+     *	@date 		Saturday 12th of August 2023 03:34:56 PM
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/registrasi"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View   android:id="@+id/_bg__registrasi"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="360dp"
+                android:layout_height="800dp" />
+
+
+            <RelativeLayout android:id="@+id/sgButton"
+                android:layout_marginTop="635dp"
+                android:layout_marginStart="63dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:id="@+id/tombolregistrasi"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="234dp"
+                    android:layout_height="50dp"
+                    android:text="Registrasi"/>
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/judulregistrasi"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="35sp"
+
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="117dp"
+                android:layout_width="325dp"
+                android:layout_height="138.5dp"
+                android:text="Selamat Datanag"
+                />
+
+            <TextView android:id="@+id/deskripsiregistrasi"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="201dp"
+                android:layout_width="307dp"
+                android:layout_height="40dp"
+                android:text="Silahkan Daftar Terlebih Dahulu"
+                />
+
+
+            <TextView android:id="@+id/textmasuk"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_marginLeft="71dp"
+                android:layout_marginTop="707dp"
+                android:layout_width="226dp"
+                android:layout_height="27dp"
+                android:text="Sudah memiliki akun? Masuk"
+                />
+
+
+            <RelativeLayout android:id="@+id/username"
+                android:layout_marginTop="273dp"
+                android:layout_marginStart="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/sgUsername"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="243dp"
+                    android:layout_height="50dp"
+                    android:hint="Username"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/sgEmail"
+                android:layout_marginTop="358dp"
+                android:layout_marginStart="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="243dp"
+                    android:layout_height="50dp"
+                    android:hint="Email"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/sgPassword"
+                android:layout_marginTop="443dp"
+                android:layout_marginStart="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/textpassword"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="243dp"
+                    android:layout_height="50dp"
+                    android:hint="Password"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/komfirmasi"
+                android:layout_marginTop="528dp"
+                android:layout_marginStart="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/konfirmasiPassword"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="243dp"
+                    android:layout_height="50dp"
+                    android:hint="Konfirmasi Password"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

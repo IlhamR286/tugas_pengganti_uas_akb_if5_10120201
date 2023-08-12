@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
+<resources>
+	<!-- splash_screen strings -->
+	<string name="labelmulai_string">MULAI</string>
+	<string name="selamat_datang_di_tulis_string">Selamat Datang Di TuLis</string>
+	<string name="melakukan_tugas_harian_dengan_tulis_string">Melakukan tugas harian dengan TuLis</string>
+	<string name="ayo_kita_masuk_ke_catatan_harian_anda_string">Ayo kita masuk ke catatan harian anda</string>
+
+	<!-- penjelasan1 strings -->
+	<string name="judulpenjelasan1_string">TuLis</string>
+	<string name="labelpenjelasan_string">Merupakan aplikasi untuk membuat daftar catatan harian yang akan di laksanakan.</string>
+	<string name="penjelasantulis_string">Penjelasan TuLis</string>
+
+	<!-- penjelasan2 strings -->
+	<string name="judulpenjelasan2_string">TuLis</string>
+	<string name="labelmanfaat_string">Dapat membuat catatan harian supaya tidak ada yang terlewat</string>
+	<string name="manfaattulis_string">Manfaat TuLis</string>
+	<string name="tomboltextkembali_string">&lt; Kembali</string>
+
+	<!-- profilmahasiswa strings -->
+	<string name="nim_string">NIM : 10120201</string>
+	<string name="nama_string">Nama: Ilham Ramdhan Putra Lesmana</string>
+	<string name="kelas_string">Kelas: IF-5</string>
+	<string name="email_string">Email : ilham.10120201@mahasiswa.unikom.ac.id</string>
+
+	<!-- list strings -->
+	<string name="tanggal_string">28-05-2023</string>
+	<string name="judul_string">Judul</string>
+	<string name="kategori_string">Kategori</string>
+	<string name="catatan_string">Catatan:</string>
+
+	<!-- keteranganaplikasi strings -->
+	<string name="judulketeranganaplikasi_string">TuLis</string>
+	<string name="labelketeranganaplikasi_string">Aplikasi ini dibangun untuk membantu pengguna membuat daftar catatan harian.Yang dimana bisa menambah, mengubah dan menghapus daftar catatan harian </string>
+	<string name="tombolkembalisplash_string">&lt; Halaman Awal</string>
+
+	<!--Navbar -->
+	<string name="profilmahasiswa">Profile</string>
+	<string name="list">List</string>
+	<string name="keteranganaplikasi">Informasi</string>
+</resources>

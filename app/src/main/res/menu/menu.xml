@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profilmahasiswa"
+        android:icon="@drawable/vector1"
+        android:title="@string/profilmahasiswa"/>
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/vector2"
+        android:title="@string/list"/>
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/vector3"
+        android:title="@string/keteranganaplikasi"/>
+</menu>

@@ -1,0 +1,159 @@
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		keteranganaplikasi
+	 *	@date 		Sunday 28th of May 2023 03:54:10 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/keteranganaplikasi" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_keteranganaplikasi_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__keteranganaplikasi_ek2"
+					android:background="@drawable/_bg__keteranganaplikasi_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="800dp" />
+
+
+				<RelativeLayout android:id="@+id/group_6"
+					android:layout_marginTop="739dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/barlist"
+						android:background="@drawable/barlist_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="360dp"
+						android:layout_height="61dp" />
+
+
+					<RelativeLayout android:id="@+id/____icon__tasks_"
+						android:layout_marginTop="10dp"
+						android:layout_marginStart="156dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector"
+							android:src="@drawable/vector2"
+							android:contentDescription="vector"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="47.4dp"
+							android:layout_height="40dp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/____icon__user_circle_"
+						android:layout_marginTop="10dp"
+						android:layout_marginStart="23dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector_ek1"
+							android:src="@drawable/vector1"
+							android:contentDescription="vector_ek1"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="40dp"
+							android:layout_height="40dp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/____icon__info_circle_"
+						android:layout_marginTop="10dp"
+						android:layout_marginStart="297dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector_ek2"
+							android:src="@drawable/vector3"
+							android:contentDescription="vector_ek2"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="40dp"
+							android:layout_height="40dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/judulketeranganaplikasi"
+					android:fontFamily="@font/krub_semibold"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="60sp"
+					android:textColor="@color/judulketeranganaplikasi_color"
+					android:layout_marginLeft="19dp"
+					android:layout_marginTop="136dp"
+					android:layout_width="337dp"
+					android:layout_height="156dp"
+					android:text="@string/judulketeranganaplikasi_string"
+					 />
+
+				<TextView android:id="@+id/labelketeranganaplikasi"
+					android:fontFamily="@font/poppins_regular"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="19sp"
+					android:textColor="@color/judulketeranganaplikasi_color"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="282dp"
+					android:layout_width="310dp"
+					android:layout_height="293.5dp"
+					android:text="@string/labelketeranganaplikasi_string"
+					 />
+
+				<TextView android:id="@+id/tombolkembalisplash"
+					android:fontFamily="@font/krub_semibold"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="15sp"
+					android:textColor="@color/tombolkembalisplash_color"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="654dp"
+					android:layout_width="308dp"
+					android:layout_height="40.5dp"
+					android:text="@string/tombolkembalisplash_string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

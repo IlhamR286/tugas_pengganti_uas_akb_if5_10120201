@@ -1,0 +1,143 @@
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <RelativeLayout android:id="@+id/group_2"
+        android:layout_marginTop="58dp"
+        android:layout_marginStart="43dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <View   android:id="@+id/bglist"
+            android:background="@drawable/bglist_shape"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="274dp"
+            android:layout_height="211dp" />
+
+        <TextView android:id="@+id/tanggal"
+            android:fontFamily="@font/inter_regular"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/tanggal_color"
+            android:layout_marginLeft="183dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="257dp"
+            android:layout_height="44dp"
+            android:text="@string/tanggal_string"
+            />
+
+        <TextView android:id="@+id/judul"
+            android:fontFamily="@font/inter_regular"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/tanggal_color"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:layout_width="257dp"
+            android:layout_height="44dp"
+            android:text="@string/judul_string"
+            />
+
+        <TextView android:id="@+id/kategori"
+            android:fontFamily="@font/inter_regular"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/tanggal_color"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="67dp"
+            android:layout_width="257dp"
+            android:layout_height="44dp"
+            android:text="@string/kategori_string"
+            />
+
+        <TextView android:id="@+id/catatan"
+            android:fontFamily="@font/inter_regular"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/tanggal_color"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="101dp"
+            android:layout_width="268dp"
+            android:layout_height="44dp"
+            android:text="@string/catatan_string"
+            />
+
+
+        <RelativeLayout android:id="@+id/group_5"
+            android:layout_marginTop="164dp"
+            android:layout_marginStart="153dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button   android:id="@+id/buttonubah"
+                android:background="@drawable/buttonubah_shape"
+                android:src="@drawable/vector5"
+                android:contentDescription="vector"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="44dp"
+                android:layout_height="34dp"
+
+                />
+
+
+            <RelativeLayout android:id="@+id/____icon__pen_"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView android:id="@+id/vector"
+                    android:src="@drawable/vector5"
+                    android:contentDescription="vector"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout android:id="@+id/group_4"
+            android:layout_marginTop="164dp"
+            android:layout_marginStart="210dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <View   android:id="@+id/buttonhapus"
+                android:background="@drawable/buttonhapus_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="44dp"
+                android:layout_height="34dp" />
+
+
+            <RelativeLayout android:id="@+id/____icon__alternate_trash_"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView android:id="@+id/vector_ek1"
+                    android:src="@drawable/vector6"
+                    android:contentDescription="vector_ek1"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="17.5dp"
+                    android:layout_height="20dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</HorizontalScrollView>

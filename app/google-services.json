@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "786073444064",
+    "project_id": "tugasuas-bdea5",
+    "storage_bucket": "tugasuas-bdea5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786073444064:android:42ad43db91cdb7e2fefa85",
+        "android_client_info": {
+          "package_name": "com.belajarkuy.tugasuas_10120201"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786073444064-3vgoijbdqm3oqu1gfs93fajv81iojum4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIbpzbuT8aH790d2VUswpczNvxN6sGwI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786073444064-3vgoijbdqm3oqu1gfs93fajv81iojum4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

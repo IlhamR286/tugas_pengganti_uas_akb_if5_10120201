@@ -1,0 +1,96 @@
+<!-- 10120201 - Ilham Ramdhan Putra Lesmana - IF5 -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		penjelasan1
+     *	@date 		Sunday 28th of May 2023 03:51:39 PM
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/penjelasan1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_penjelasan1_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__penjelasan1_ek2"
+                    android:background="@drawable/_bg__penjelasan1_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="360dp"
+                    android:layout_height="800dp" />
+
+                <TextView android:id="@+id/judulpenjelasan1"
+                    android:fontFamily="@font/krub_semibold"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|center"
+                    android:gravity="center"
+                    android:textSize="60sp"
+                    android:textColor="@color/judulpenjelasan1_color"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="337dp"
+                    android:layout_height="156dp"
+                    android:text="@string/judulpenjelasan1_string"
+                    />
+
+                <TextView android:id="@+id/labelpenjelasan"
+                    android:fontFamily="@font/poppins_regular"
+                    android:layout_gravity="center_horizontal|center"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/judulpenjelasan1_color"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="573dp"
+                    android:layout_width="309dp"
+                    android:layout_height="102dp"
+                    android:text="@string/labelpenjelasan_string"
+                    />
+
+                <ImageView android:id="@+id/__img_penjelasan1_ek3"
+                    android:src="@drawable/__img_penjelasan1_ek3"
+                    android:contentDescription="__img_penjelasan1_ek3"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="174dp"
+                    android:layout_width="340.81dp"
+                    android:layout_height="280dp" />
+
+                <TextView android:id="@+id/penjelasantulis"
+                    android:fontFamily="@font/krub_semibold"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|center"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/judulpenjelasan1_color"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="526dp"
+                    android:layout_width="315dp"
+                    android:layout_height="51dp"
+                    android:text="@string/penjelasantulis_string"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
